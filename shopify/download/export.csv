@@ -1,0 +1,6 @@
+inventoryId,name,code,type,description,supplier,quantity,price,createdTime,modifiedTime
+1,HCF Milk 1 Gallon,123AB,InventoryType.Grocery,100% Whole milk without any preservatives,Trendon,200,2.84,2022-01-16 02:45:17,2022-01-16 02:45:17
+4,JBL Flip 5,688OP,InventoryType.Electronic,60W Bluetooth Speaker with TrueSync connectivity,eCloud Technologies,55,119.99,2022-01-16 10:24:57,2022-01-16 10:43:13
+10,Rice Crackers 12oz,911FK,InventoryType.Snacks,Gluten free,"HEB Foods, Texas",1000,2.29,2022-01-17 02:19:33,2022-01-17 03:01:11
+11,Hershey Chocolate Powder,487YY,InventoryType.Bakery,90% Dark Cocoa Powder,Walmart Texas,70,4.47,2022-01-17 16:40:47,2022-01-17 16:48:51
+12,Casio G-Shock W47,54AED,InventoryType.Electronic,"Watch, fancy. Water Resistant 100m",Casio Inc.,673,104.49,2022-01-17 17:46:38,2022-01-17 17:50:01

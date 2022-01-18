@@ -1,0 +1,1564 @@
+2022-01-15 15:04:25,082 	 [INFO | app.py:19] > [test] Dashboard service listening on http://localhost:8086
+2022-01-15 15:04:44,399 	 [INFO | app.py:19] > [TEST] Dashboard service listening on http://localhost:8086
+2022-01-15 15:10:56,131 	 [INFO | app.py:19] > [TEST] Dashboard service listening on http://localhost:8086
+2022-01-15 15:12:47,427 	 [INFO | app.py:19] > [TEST] Dashboard service listening on http://localhost:8086
+2022-01-15 15:12:51,339 	 [INFO | inventoryControlHandler.py:11] > [GET] Request - /api/inventory/list
+2022-01-15 15:13:58,173 	 [DEBUG | proactor_events.py:623] > Using proactor: IocpProactor
+2022-01-15 15:13:58,184 	 [INFO | app.py:19] > [TEST] Dashboard service listening on http://localhost:8086
+2022-01-15 15:14:07,480 	 [INFO | inventoryControlHandler.py:11] > [GET] Request - /api/inventory/list
+2022-01-15 15:14:53,212 	 [INFO | inventoryControlHandler.py:19] > [GET] Response - /api/inventory/list
+2022-01-15 15:14:53,219 	 [INFO | web.py:2239] > 200 GET /api/inventory/list (::1) 54919.38ms
+2022-01-15 15:15:10,769 	 [INFO | inventoryControlHandler.py:11] > [GET] Request - /api/inventory/list
+2022-01-15 15:21:02,509 	 [INFO | inventoryControlHandler.py:19] > [GET] Response - /api/inventory/list
+2022-01-15 15:21:02,511 	 [INFO | web.py:2239] > 200 GET /api/inventory/list?inventoyId=123 (::1) 354822.49ms
+2022-01-15 15:21:52,131 	 [INFO | inventoryControlHandler.py:11] > [GET] Request - /api/inventory/list;inventoyId=123
+2022-01-15 15:25:42,304 	 [DEBUG | proactor_events.py:623] > Using proactor: IocpProactor
+2022-01-15 15:25:42,312 	 [INFO | app.py:19] > [TEST] Dashboard service listening on http://localhost:8086
+2022-01-15 15:25:58,874 	 [INFO | inventoryControlHandler.py:11] > [GET] Request - /api/inventory/list;inventoyId=123
+2022-01-15 15:26:50,920 	 [DEBUG | proactor_events.py:623] > Using proactor: IocpProactor
+2022-01-15 15:26:50,932 	 [INFO | app.py:19] > [TEST] Dashboard service listening on http://localhost:8086
+2022-01-15 15:26:55,178 	 [INFO | inventoryControlHandler.py:11] > [GET] Request - /api/inventory/list;inventoyId=123
+2022-01-15 15:27:20,034 	 [DEBUG | proactor_events.py:623] > Using proactor: IocpProactor
+2022-01-15 15:27:20,046 	 [INFO | app.py:19] > [TEST] Dashboard service listening on http://localhost:8086
+2022-01-15 15:46:33,919 	 [DEBUG | proactor_events.py:623] > Using proactor: IocpProactor
+2022-01-15 15:46:33,936 	 [INFO | app.py:19] > [TEST] Dashboard service listening on http://localhost:8086
+2022-01-15 15:46:37,818 	 [ERROR | web.py:1789] > Uncaught exception GET /api/inventory/list?inventoryId=123 (::1)
+HTTPServerRequest(protocol='http', host='localhost:8086', method='GET', uri='/api/inventory/list?inventoryId=123', version='HTTP/1.1', remote_ip='::1')
+Traceback (most recent call last):
+  File "C:\Users\sheri\AppData\Local\Programs\Python\Python39\lib\site-packages\tornado\web.py", line 1681, in _execute
+    result = self.prepare()
+  File "D:\Sherine Davis\Code\PycharmProjects\ShopifyInternshipApplication\service\handler\baseHandler.py", line 40, in prepare
+    if not self.isArgumentsSafe(args):
+AttributeError: 'InventoryControlHandler' object has no attribute 'isArgumentsSafe'
+2022-01-15 15:46:37,848 	 [ERROR | web.py:2239] > 500 GET /api/inventory/list?inventoryId=123 (::1) 36.63ms
+2022-01-15 15:47:41,956 	 [DEBUG | proactor_events.py:623] > Using proactor: IocpProactor
+2022-01-15 15:47:41,965 	 [INFO | app.py:19] > [TEST] Dashboard service listening on http://localhost:8086
+2022-01-15 15:47:48,462 	 [ERROR | web.py:1789] > Uncaught exception GET /api/inventory/list?inventoryId=123 (::1)
+HTTPServerRequest(protocol='http', host='localhost:8086', method='GET', uri='/api/inventory/list?inventoryId=123', version='HTTP/1.1', remote_ip='::1')
+Traceback (most recent call last):
+  File "C:\Users\sheri\AppData\Local\Programs\Python\Python39\lib\site-packages\tornado\web.py", line 1681, in _execute
+    result = self.prepare()
+  File "D:\Sherine Davis\Code\PycharmProjects\ShopifyInternshipApplication\service\handler\baseHandler.py", line 40, in prepare
+    if not self.isArgumentsSafe(args):
+AttributeError: 'InventoryControlHandler' object has no attribute 'isArgumentsSafe'
+2022-01-15 15:47:48,467 	 [ERROR | web.py:2239] > 500 GET /api/inventory/list?inventoryId=123 (::1) 7.94ms
+2022-01-15 15:48:09,441 	 [DEBUG | proactor_events.py:623] > Using proactor: IocpProactor
+2022-01-15 15:48:09,454 	 [INFO | app.py:19] > [TEST] Dashboard service listening on http://localhost:8086
+2022-01-15 15:48:17,168 	 [INFO | inventoryControlHandler.py:11] > [GET] Request - /api/inventory/list
+2022-01-15 15:53:42,461 	 [DEBUG | proactor_events.py:623] > Using proactor: IocpProactor
+2022-01-15 15:53:42,474 	 [INFO | app.py:19] > [TEST] Dashboard service listening on http://localhost:8086
+2022-01-15 15:54:00,824 	 [INFO | inventoryControlHandler.py:11] > [GET] Request - /api/inventory/list
+2022-01-15 15:54:21,414 	 [DEBUG | proactor_events.py:623] > Using proactor: IocpProactor
+2022-01-15 15:54:21,423 	 [INFO | app.py:19] > [TEST] Dashboard service listening on http://localhost:8086
+2022-01-15 15:54:42,206 	 [INFO | inventoryControlHandler.py:11] > [GET] Request - /api/inventory/list
+2022-01-15 15:56:16,188 	 [DEBUG | proactor_events.py:623] > Using proactor: IocpProactor
+2022-01-15 15:56:16,200 	 [INFO | app.py:19] > [TEST] Dashboard service listening on http://localhost:8086
+2022-01-15 15:56:16,259 	 [INFO | inventoryControlHandler.py:11] > [GET] Request - /api/inventory/list
+2022-01-15 16:03:42,232 	 [INFO | inventoryControlHandler.py:19] > [GET] Response - /api/inventory/list
+2022-01-15 16:03:42,238 	 [INFO | web.py:2239] > 200 GET /api/inventory/list?inventoryId=123 (127.0.0.1) 445982.26ms
+2022-01-15 17:27:00,416 	 [DEBUG | proactor_events.py:623] > Using proactor: IocpProactor
+2022-01-15 17:27:00,422 	 [INFO | app.py:19] > [TEST] Dashboard service listening on http://localhost:8086
+2022-01-15 20:33:09,156 	 [DEBUG | proactor_events.py:623] > Using proactor: IocpProactor
+2022-01-15 20:33:09,163 	 [INFO | app.py:19] > [TEST] Dashboard service listening on http://localhost:8086
+2022-01-15 20:33:18,076 	 [WARNING | web.py:2239] > 404 GET /api/inventory/list/ (::1) 2.37ms
+2022-01-15 20:33:24,476 	 [WARNING | web.py:2239] > 404 GET /api/inventory/list/ (::1) 1.47ms
+2022-01-15 20:33:27,918 	 [WARNING | web.py:2239] > 404 GET /api/inventory/list/ (::1) 1.00ms
+2022-01-15 20:33:28,103 	 [WARNING | web.py:2239] > 404 GET /api/inventory/list/ (::1) 1.00ms
+2022-01-15 20:33:47,474 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 20:33:48,807 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 20:33:48,810 	 [INFO | web.py:2239] > 200 GET /api/inventory/list (::1) 1337.58ms
+2022-01-15 20:34:47,019 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 20:34:47,095 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 20:34:47,096 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 76.19ms
+2022-01-15 20:34:57,023 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 20:34:57,100 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 20:34:57,101 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 78.55ms
+2022-01-15 20:35:07,126 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 20:35:07,270 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 20:35:07,271 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 145.12ms
+2022-01-15 20:35:17,317 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 20:35:17,404 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 20:35:17,405 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 87.34ms
+2022-01-15 20:35:27,421 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 20:35:27,497 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 20:35:27,498 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 77.23ms
+2022-01-15 20:35:37,526 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 20:35:37,603 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 20:35:37,604 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 77.84ms
+2022-01-15 20:35:47,620 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 20:35:47,695 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 20:35:47,695 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 75.61ms
+2022-01-15 20:35:57,704 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 20:35:57,780 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 20:35:57,780 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 76.18ms
+2022-01-15 20:36:07,801 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 20:36:07,878 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 20:36:07,879 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 78.03ms
+2022-01-15 20:36:17,902 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 20:36:17,977 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 20:36:17,978 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 76.43ms
+2022-01-15 20:36:27,998 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 20:36:28,095 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 20:36:28,095 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 97.33ms
+2022-01-15 20:36:38,110 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 20:36:38,188 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 20:36:38,189 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 78.75ms
+2022-01-15 20:36:48,207 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 20:36:48,284 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 20:36:48,284 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 78.19ms
+2022-01-15 20:36:53,071 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 20:36:53,148 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 20:36:53,148 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 78.32ms
+2022-01-15 20:36:58,300 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 20:36:58,377 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 20:36:58,378 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 79.21ms
+2022-01-15 20:37:08,402 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 20:37:08,489 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 20:37:08,490 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 88.50ms
+2022-01-15 20:37:15,507 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 20:37:15,583 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 20:37:15,584 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 77.55ms
+2022-01-15 20:37:19,042 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 20:37:19,119 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 20:37:19,120 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 78.78ms
+2022-01-15 20:37:25,482 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 20:37:25,595 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 20:37:25,596 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 114.95ms
+2022-01-15 20:37:35,637 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 20:37:35,715 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 20:37:35,716 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 79.97ms
+2022-01-15 20:37:45,774 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 20:37:45,852 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 20:37:45,853 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 79.82ms
+2022-01-15 20:37:55,892 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 20:37:55,969 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 20:37:55,970 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 78.97ms
+2022-01-15 20:38:06,013 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 20:38:06,090 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 20:38:06,091 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 78.62ms
+2022-01-15 20:38:16,133 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 20:38:16,211 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 20:38:16,212 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 78.93ms
+2022-01-15 20:38:26,200 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 20:38:26,277 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 20:38:26,278 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 79.40ms
+2022-01-15 20:38:36,321 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 20:38:36,398 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 20:38:36,399 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 78.97ms
+2022-01-15 20:38:46,444 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 20:38:46,522 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 20:38:46,523 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 78.79ms
+2022-01-15 20:38:56,575 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 20:38:56,652 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 20:38:56,652 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 77.32ms
+2022-01-15 20:39:06,697 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 20:39:06,774 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 20:39:06,775 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 78.29ms
+2022-01-15 20:39:16,815 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 20:39:16,893 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 20:39:16,894 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 78.67ms
+2022-01-15 20:39:26,928 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 20:39:27,024 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 20:39:27,025 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 98.10ms
+2022-01-15 20:39:37,063 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 20:39:37,141 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 20:39:37,142 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 78.09ms
+2022-01-15 20:39:47,189 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 20:39:47,265 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 20:39:47,266 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 78.04ms
+2022-01-15 20:39:57,313 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 20:39:57,390 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 20:39:57,391 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 77.80ms
+2022-01-15 20:40:07,429 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 20:40:07,505 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 20:40:07,506 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 78.42ms
+2022-01-15 20:40:17,535 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 20:40:17,617 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 20:40:17,617 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 83.02ms
+2022-01-15 20:40:24,238 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 20:40:24,316 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 20:40:24,317 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 78.98ms
+2022-01-15 20:40:27,655 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 20:40:27,732 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 20:40:27,732 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 77.97ms
+2022-01-15 20:40:37,765 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 20:40:37,842 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 20:40:37,842 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 78.43ms
+2022-01-15 20:40:47,890 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 20:40:47,978 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 20:40:47,978 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 87.38ms
+2022-01-15 20:40:55,991 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 20:40:56,069 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 20:40:56,070 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 80.11ms
+2022-01-15 20:41:06,026 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 20:41:06,119 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 20:41:06,120 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 95.05ms
+2022-01-15 20:41:16,175 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 20:41:16,252 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 20:41:16,253 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 79.51ms
+2022-01-15 20:41:26,299 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 20:41:26,395 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 20:41:26,396 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 96.35ms
+2022-01-15 20:41:27,590 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 20:41:27,667 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 20:41:27,668 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 77.50ms
+2022-01-15 20:41:37,621 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 20:41:37,697 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 20:41:37,698 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 76.81ms
+2022-01-15 20:41:47,732 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 20:41:47,808 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 20:41:47,809 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 77.81ms
+2022-01-15 20:41:57,838 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 20:41:57,914 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 20:41:57,916 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 78.38ms
+2022-01-15 20:42:07,961 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 20:42:08,037 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 20:42:08,038 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 77.95ms
+2022-01-15 20:42:18,095 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 20:42:18,174 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 20:42:18,175 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 79.40ms
+2022-01-15 20:42:28,222 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 20:42:28,300 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 20:42:28,301 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 78.75ms
+2022-01-15 20:42:37,504 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 20:42:37,581 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 20:42:37,582 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 78.03ms
+2022-01-15 20:42:48,355 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 20:42:48,433 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 20:42:48,434 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 78.46ms
+2022-01-15 20:42:58,469 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 20:42:58,546 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 20:42:58,546 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 77.50ms
+2022-01-15 20:43:04,353 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 20:43:04,447 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 20:43:04,448 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 95.36ms
+2022-01-15 20:43:08,584 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 20:43:08,668 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 20:43:08,668 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 84.30ms
+2022-01-15 20:43:18,695 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 20:43:18,771 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 20:43:18,772 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 76.99ms
+2022-01-15 20:43:22,498 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 20:43:22,576 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 20:43:22,576 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 84.56ms
+2022-01-15 20:43:23,486 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 20:43:23,570 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 20:43:23,571 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 85.82ms
+2022-01-15 20:43:33,508 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 20:43:33,586 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 20:43:33,586 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 78.06ms
+2022-01-15 20:43:43,625 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 20:43:43,712 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 20:43:43,713 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 87.86ms
+2022-01-15 20:43:53,758 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 20:43:53,835 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 20:43:53,836 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 77.88ms
+2022-01-15 20:44:03,889 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 20:44:03,966 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 20:44:03,967 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 78.54ms
+2022-01-15 20:44:14,005 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 20:44:14,085 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 20:44:14,086 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 82.06ms
+2022-01-15 20:44:22,438 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 20:44:22,514 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 20:44:22,515 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 78.20ms
+2022-01-15 20:44:27,493 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 20:44:27,571 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 20:44:27,571 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 78.20ms
+2022-01-15 20:44:34,149 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 20:44:34,227 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 20:44:34,227 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 77.83ms
+2022-01-15 20:44:44,256 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 20:44:44,332 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 20:44:44,333 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 77.71ms
+2022-01-15 20:45:12,132 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 20:45:12,207 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 20:45:12,208 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 76.18ms
+2022-01-15 20:45:17,232 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 20:45:17,310 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 20:45:17,311 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 79.92ms
+2022-01-15 20:45:22,885 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 20:45:22,968 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 20:45:22,969 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 83.91ms
+2022-01-15 20:45:32,991 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 20:45:33,067 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 20:45:33,068 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 78.27ms
+2022-01-15 20:46:42,263 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 20:46:42,339 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 20:46:42,339 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 77.51ms
+2022-01-15 20:48:23,978 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 20:48:24,055 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 20:48:24,056 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 79.18ms
+2022-01-15 20:51:56,732 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 20:51:56,819 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 20:51:56,820 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 88.64ms
+2022-01-15 20:52:15,774 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 20:52:15,851 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 20:52:15,852 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 77.94ms
+2022-01-15 20:53:01,949 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 20:53:02,027 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 20:53:02,028 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 80.12ms
+2022-01-15 20:53:13,175 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 20:53:13,253 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 20:53:13,254 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 78.69ms
+2022-01-15 20:53:23,286 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 20:53:23,363 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 20:53:23,365 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 81.61ms
+2022-01-15 20:53:33,383 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 20:53:33,463 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 20:53:33,465 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 82.46ms
+2022-01-15 20:53:43,493 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 20:53:43,570 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 20:53:43,571 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 79.12ms
+2022-01-15 20:53:53,597 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 20:53:53,679 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 20:53:53,680 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 82.86ms
+2022-01-15 20:54:03,698 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 20:54:03,775 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 20:54:03,776 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 79.14ms
+2022-01-15 20:54:13,801 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 20:54:13,878 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 20:54:13,879 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 79.36ms
+2022-01-15 20:54:23,899 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 20:54:23,976 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 20:54:23,977 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 78.26ms
+2022-01-15 20:54:31,334 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 20:54:31,411 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 20:54:31,412 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 78.13ms
+2022-01-15 21:05:03,160 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 21:05:03,235 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 21:05:03,236 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 77.17ms
+2022-01-15 21:05:13,177 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 21:05:13,255 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 21:05:13,256 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 79.03ms
+2022-01-15 21:05:23,272 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 21:05:23,349 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 21:05:23,350 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 77.74ms
+2022-01-15 21:05:33,390 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 21:05:33,466 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 21:05:33,467 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 78.17ms
+2022-01-15 21:05:43,505 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 21:05:43,583 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 21:05:43,584 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 79.62ms
+2022-01-15 21:05:53,621 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 21:05:53,699 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 21:05:53,700 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 79.97ms
+2022-01-15 21:06:48,210 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 21:06:48,291 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 21:06:48,292 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 82.70ms
+2022-01-15 21:06:57,183 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 21:06:57,270 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 21:06:57,271 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 87.60ms
+2022-01-15 21:07:07,309 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 21:07:07,403 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 21:07:07,404 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 95.67ms
+2022-01-15 21:07:11,720 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 21:07:11,798 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 21:07:11,798 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 78.55ms
+2022-01-15 21:07:17,451 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 21:07:17,536 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 21:07:17,537 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 85.88ms
+2022-01-15 21:07:27,577 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 21:07:27,653 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 21:07:27,654 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 78.54ms
+2022-01-15 21:07:37,709 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 21:07:37,808 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 21:07:37,809 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 99.90ms
+2022-01-15 21:07:43,686 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 21:07:43,794 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 21:07:43,795 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 108.64ms
+2022-01-15 21:07:47,842 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 21:07:47,920 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 21:07:47,921 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 79.50ms
+2022-01-15 21:07:57,961 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 21:07:58,052 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 21:07:58,053 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 93.07ms
+2022-01-15 21:08:08,098 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 21:08:08,175 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 21:08:08,176 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 78.05ms
+2022-01-15 21:08:18,230 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 21:08:18,307 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 21:08:18,308 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 79.26ms
+2022-01-15 21:08:21,471 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 21:08:21,547 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 21:08:21,548 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 78.39ms
+2022-01-15 21:08:28,346 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 21:08:28,422 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 21:08:28,423 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 77.23ms
+2022-01-15 21:08:38,466 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 21:08:38,544 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 21:08:38,546 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 81.03ms
+2022-01-15 21:08:48,573 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 21:08:48,653 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 21:08:48,654 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 81.24ms
+2022-01-15 21:08:58,686 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 21:08:58,762 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 21:08:58,764 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 78.76ms
+2022-01-15 21:09:08,809 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 21:09:08,885 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 21:09:08,885 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 76.57ms
+2022-01-15 21:09:18,922 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 21:09:18,998 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 21:09:18,999 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 77.84ms
+2022-01-15 21:09:29,028 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 21:09:29,104 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 21:09:29,105 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 77.83ms
+2022-01-15 21:09:39,145 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 21:09:39,237 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 21:09:39,239 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 93.51ms
+2022-01-15 21:09:49,300 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 21:09:49,376 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 21:09:49,377 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 77.40ms
+2022-01-15 21:09:59,425 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 21:09:59,502 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 21:09:59,503 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 77.50ms
+2022-01-15 21:10:09,550 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 21:10:09,628 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 21:10:09,628 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 77.18ms
+2022-01-15 21:10:19,677 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 21:10:19,753 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 21:10:19,754 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 78.50ms
+2022-01-15 21:10:29,807 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 21:10:29,884 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 21:10:29,885 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 78.38ms
+2022-01-15 21:10:39,930 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 21:10:40,007 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 21:10:40,008 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 77.84ms
+2022-01-15 21:10:50,056 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 21:10:50,134 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 21:10:50,135 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 79.01ms
+2022-01-15 21:11:00,176 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 21:11:00,252 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 21:11:00,253 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 78.91ms
+2022-01-15 21:11:10,307 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 21:11:10,388 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 21:11:10,389 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 83.03ms
+2022-01-15 21:11:20,442 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 21:11:20,518 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 21:11:20,519 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 77.30ms
+2022-01-15 21:11:25,109 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 21:11:25,186 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 21:11:25,187 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 77.80ms
+2022-01-15 21:11:30,552 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 21:11:30,648 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 21:11:30,649 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 98.24ms
+2022-01-15 21:11:40,696 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 21:11:40,774 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 21:11:40,775 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 79.00ms
+2022-01-15 21:11:50,799 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 21:11:50,876 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 21:11:50,877 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 77.88ms
+2022-01-15 21:12:00,915 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 21:12:00,991 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 21:12:00,992 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 76.88ms
+2022-01-15 21:12:11,035 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 21:12:11,130 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 21:12:11,131 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 96.01ms
+2022-01-15 21:12:21,167 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 21:12:21,243 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 21:12:21,244 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 77.53ms
+2022-01-15 21:12:31,286 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 21:12:31,388 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 21:12:31,389 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 103.86ms
+2022-01-15 21:12:41,435 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 21:12:41,511 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 21:12:41,511 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 76.24ms
+2022-01-15 21:12:51,549 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 21:12:51,625 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 21:12:51,626 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 78.45ms
+2022-01-15 21:13:01,667 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 21:13:01,756 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 21:13:01,756 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 89.77ms
+2022-01-15 21:13:11,793 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 21:13:11,869 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 21:13:11,870 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 77.39ms
+2022-01-15 21:13:21,914 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 21:13:21,992 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 21:13:21,993 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 78.15ms
+2022-01-15 21:13:32,037 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 21:13:32,116 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 21:13:32,117 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 80.55ms
+2022-01-15 21:13:42,136 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 21:13:42,212 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 21:13:42,212 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 76.97ms
+2022-01-15 21:13:52,249 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 21:13:52,326 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 21:13:52,327 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 78.13ms
+2022-01-15 21:14:02,364 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 21:14:02,443 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 21:14:02,458 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 94.80ms
+2022-01-15 21:14:12,489 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 21:14:12,564 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 21:14:12,565 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 76.10ms
+2022-01-15 21:14:22,601 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 21:14:22,677 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 21:14:22,678 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 78.24ms
+2022-01-15 21:14:32,720 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 21:14:32,796 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 21:14:32,797 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 77.33ms
+2022-01-15 21:14:42,846 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 21:14:42,923 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 21:14:42,923 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 77.87ms
+2022-01-15 21:14:52,966 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 21:14:53,042 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 21:14:53,043 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 76.78ms
+2022-01-15 21:15:03,087 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 21:15:03,163 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 21:15:03,164 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 78.21ms
+2022-01-15 21:15:13,201 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 21:15:13,278 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 21:15:13,279 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 77.84ms
+2022-01-15 21:15:23,316 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 21:15:23,399 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 21:15:23,400 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 84.05ms
+2022-01-15 21:16:07,886 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 21:16:07,981 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 21:16:07,982 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 95.35ms
+2022-01-15 21:16:17,172 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 21:16:17,249 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 21:16:17,250 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 78.82ms
+2022-01-15 21:16:27,284 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 21:16:27,359 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 21:16:27,360 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 76.85ms
+2022-01-15 21:16:49,895 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 21:16:49,985 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 21:16:49,986 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 92.31ms
+2022-01-15 21:17:02,656 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 21:17:02,733 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 21:17:02,735 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 79.29ms
+2022-01-15 21:17:10,007 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 21:17:10,084 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 21:17:10,084 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 76.98ms
+2022-01-15 21:17:24,578 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 21:17:24,655 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 21:17:24,656 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 78.66ms
+2022-01-15 21:17:31,171 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 21:17:31,250 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 21:17:31,251 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 79.98ms
+2022-01-15 21:17:41,303 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 21:17:41,380 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 21:17:41,381 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 78.83ms
+2022-01-15 21:17:59,620 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 21:17:59,700 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 21:17:59,701 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 80.19ms
+2022-01-15 21:18:02,152 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 21:18:02,229 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 21:18:02,230 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 78.18ms
+2022-01-15 21:18:13,096 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 21:18:13,177 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 21:18:13,178 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 81.93ms
+2022-01-15 21:18:23,227 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 21:18:23,308 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 21:18:23,309 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 82.72ms
+2022-01-15 21:19:14,492 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 21:19:14,571 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 21:19:14,571 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 80.32ms
+2022-01-15 21:19:22,949 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 21:19:23,026 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 21:19:23,026 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 77.93ms
+2022-01-15 21:19:27,191 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 21:19:27,267 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 21:19:27,268 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 77.85ms
+2022-01-15 21:20:03,799 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 21:20:03,876 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 21:20:03,877 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 79.97ms
+2022-01-15 21:20:46,914 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 21:20:46,990 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 21:20:46,990 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 77.02ms
+2022-01-15 21:20:59,668 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 21:20:59,745 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 21:20:59,745 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 77.07ms
+2022-01-15 21:21:06,129 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 21:21:06,205 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 21:21:06,206 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 76.98ms
+2022-01-15 21:21:14,182 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 21:21:14,259 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 21:21:14,260 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 78.83ms
+2022-01-15 21:21:20,985 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 21:21:21,061 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 21:21:21,062 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 78.04ms
+2022-01-15 21:21:32,861 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 21:21:32,938 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 21:21:32,939 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 79.08ms
+2022-01-15 21:21:35,159 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 21:21:35,235 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 21:21:35,236 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 78.39ms
+2022-01-15 21:21:39,616 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 21:21:39,693 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 21:21:39,694 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 78.15ms
+2022-01-15 21:21:47,868 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 21:21:47,944 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 21:21:47,944 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 77.30ms
+2022-01-15 21:21:55,233 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 21:21:55,309 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 21:21:55,309 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 76.43ms
+2022-01-15 21:22:04,788 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 21:22:04,887 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 21:22:04,888 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 99.92ms
+2022-01-15 21:22:11,988 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 21:22:12,081 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 21:22:12,082 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 94.29ms
+2022-01-15 21:22:16,192 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 21:22:16,269 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 21:22:16,270 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 78.27ms
+2022-01-15 21:22:26,318 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 21:22:26,394 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 21:22:26,395 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 78.41ms
+2022-01-15 21:22:51,290 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 21:22:51,368 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 21:22:51,369 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 80.20ms
+2022-01-15 21:22:58,185 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 21:22:58,261 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 21:22:58,262 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 77.45ms
+2022-01-15 21:23:03,616 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 21:23:03,698 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 21:23:03,699 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 83.88ms
+2022-01-15 21:23:08,304 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 21:23:08,381 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 21:23:08,381 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 77.88ms
+2022-01-15 21:23:32,206 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 21:23:32,300 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 21:23:32,301 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 94.10ms
+2022-01-15 21:23:55,505 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 21:23:55,610 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 21:23:55,610 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 104.73ms
+2022-01-15 21:24:02,178 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 21:24:02,255 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 21:24:02,256 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 78.00ms
+2022-01-15 21:24:12,298 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 21:24:12,375 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 21:24:12,377 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 78.56ms
+2022-01-15 21:24:22,419 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 21:24:22,494 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 21:24:22,495 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 77.38ms
+2022-01-15 21:24:32,539 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 21:24:32,618 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 21:24:32,619 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 81.51ms
+2022-01-15 21:24:44,380 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 21:24:44,457 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 21:24:44,458 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 80.08ms
+2022-01-15 21:24:53,147 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 21:24:53,224 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 21:24:53,225 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 78.05ms
+2022-01-15 21:24:56,503 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 21:24:56,579 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 21:24:56,580 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 78.30ms
+2022-01-15 21:25:35,317 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 21:25:35,394 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 21:25:35,395 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 79.03ms
+2022-01-15 21:25:46,160 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 21:25:46,257 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 21:25:46,259 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 99.25ms
+2022-01-15 21:25:58,459 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 21:25:58,534 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 21:25:58,535 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 77.19ms
+2022-01-15 21:26:09,380 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 21:26:09,457 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 21:26:09,458 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 78.37ms
+2022-01-15 21:26:19,682 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 21:26:19,776 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 21:26:19,777 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 94.98ms
+2022-01-15 21:27:01,810 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 21:27:01,886 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 21:27:01,886 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 76.55ms
+2022-01-15 21:27:19,876 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 21:27:19,951 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 21:27:19,952 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 77.42ms
+2022-01-15 21:27:22,157 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 21:27:22,236 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 21:27:22,237 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 78.73ms
+2022-01-15 21:27:27,590 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 21:27:27,667 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 21:27:27,667 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 77.45ms
+2022-01-15 21:27:53,553 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 21:27:53,644 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 21:27:53,644 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 96.44ms
+2022-01-15 21:28:04,159 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 21:28:04,236 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 21:28:04,236 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 77.24ms
+2022-01-15 21:28:14,261 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 21:28:14,338 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 21:28:14,339 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 78.32ms
+2022-01-15 21:28:24,354 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 21:28:24,431 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 21:28:24,431 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 77.24ms
+2022-01-15 21:29:23,668 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 21:29:23,746 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 21:29:23,748 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 79.03ms
+2022-01-15 21:29:29,156 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 21:29:29,235 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 21:29:29,236 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 80.94ms
+2022-01-15 21:29:39,253 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 21:29:39,329 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 21:29:39,330 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 78.00ms
+2022-01-15 21:29:49,340 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 21:29:49,422 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 21:29:49,423 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 82.28ms
+2022-01-15 21:29:59,439 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 21:29:59,513 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 21:29:59,513 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 75.64ms
+2022-01-15 21:30:09,520 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 21:30:09,595 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 21:30:09,595 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 75.25ms
+2022-01-15 21:30:19,604 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 21:30:19,679 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 21:30:19,680 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 76.24ms
+2022-01-15 21:30:29,698 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 21:30:29,774 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 21:30:29,774 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 75.71ms
+2022-01-15 21:30:39,788 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 21:30:39,864 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 21:30:39,864 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 76.44ms
+2022-01-15 21:30:49,872 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 21:30:49,946 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 21:30:49,946 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 75.22ms
+2022-01-15 21:30:59,959 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 21:31:00,034 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 21:31:00,034 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 75.09ms
+2022-01-15 21:31:03,061 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 21:31:03,136 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 21:31:03,137 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 76.31ms
+2022-01-15 21:33:08,462 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 21:33:08,537 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 21:33:08,537 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 74.80ms
+2022-01-15 21:34:07,324 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 21:34:07,399 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 21:34:07,399 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 76.35ms
+2022-01-15 21:34:37,820 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 21:34:37,920 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 21:34:37,921 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 100.97ms
+2022-01-15 21:35:54,229 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 21:35:54,303 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 21:35:54,304 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 76.16ms
+2022-01-15 21:36:05,900 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 21:36:05,975 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 21:36:05,975 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 74.93ms
+2022-01-15 21:36:16,068 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 21:36:16,143 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 21:36:16,143 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 75.40ms
+2022-01-15 21:36:21,756 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 21:36:21,856 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 21:36:21,856 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 100.64ms
+2022-01-15 21:36:26,166 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 21:36:26,242 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 21:36:26,242 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 75.94ms
+2022-01-15 21:36:36,250 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 21:36:36,325 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 21:36:36,325 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 75.28ms
+2022-01-15 21:36:46,334 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 21:36:46,411 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 21:36:46,412 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 77.88ms
+2022-01-15 21:36:56,425 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 21:36:56,500 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 21:36:56,501 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 76.05ms
+2022-01-15 21:37:06,519 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 21:37:06,594 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 21:37:06,594 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 74.63ms
+2022-01-15 21:37:16,611 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 21:37:16,686 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 21:37:16,687 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 75.94ms
+2022-01-15 21:37:26,695 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 21:37:26,771 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 21:37:26,771 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 76.13ms
+2022-01-15 21:37:36,787 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 21:37:36,862 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 21:37:36,863 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 77.03ms
+2022-01-15 21:37:46,874 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 21:37:46,949 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 21:37:46,949 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 75.28ms
+2022-01-15 21:37:56,956 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 21:37:57,032 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 21:37:57,033 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 76.41ms
+2022-01-15 21:38:07,047 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 21:38:07,121 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 21:38:07,122 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 75.83ms
+2022-01-15 21:38:17,132 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 21:38:17,227 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 21:38:17,228 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 95.99ms
+2022-01-15 21:38:20,550 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 21:38:20,626 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 21:38:20,627 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 77.54ms
+2022-01-15 21:38:26,054 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 21:38:26,129 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 21:38:26,130 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 75.62ms
+2022-01-15 21:38:37,247 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 21:38:37,322 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 21:38:37,322 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 75.20ms
+2022-01-15 21:39:50,610 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 21:39:50,685 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 21:39:50,685 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 75.47ms
+2022-01-15 21:40:25,953 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 21:40:26,029 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 21:40:26,029 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 75.95ms
+2022-01-15 21:40:55,844 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 21:40:55,918 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 21:40:55,919 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 75.91ms
+2022-01-15 21:41:04,173 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 21:41:04,254 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 21:41:04,255 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 81.21ms
+2022-01-15 21:41:14,270 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 21:41:14,345 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 21:41:14,345 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 75.68ms
+2022-01-15 21:41:24,907 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 21:41:24,993 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 21:41:24,994 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 87.87ms
+2022-01-15 21:42:06,983 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 21:42:07,072 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 21:42:07,072 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 88.05ms
+2022-01-15 21:42:15,772 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 21:42:15,848 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 21:42:15,848 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 75.57ms
+2022-01-15 21:42:27,056 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 21:42:27,131 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 21:42:27,131 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 74.97ms
+2022-01-15 21:42:55,451 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 21:42:55,526 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 21:42:55,526 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 75.93ms
+2022-01-15 21:42:58,149 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 21:42:58,223 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 21:42:58,224 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 74.93ms
+2022-01-15 21:43:08,244 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 21:43:08,318 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 21:43:08,319 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 75.50ms
+2022-01-15 21:43:18,342 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 21:43:18,417 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 21:43:18,418 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 75.78ms
+2022-01-15 21:43:38,781 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 21:43:38,862 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 21:43:38,863 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 82.01ms
+2022-01-15 21:43:49,159 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 21:43:49,235 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 21:43:49,235 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 75.52ms
+2022-01-15 21:43:59,263 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 21:43:59,338 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 21:43:59,338 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 74.68ms
+2022-01-15 21:44:07,676 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 21:44:07,750 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 21:44:07,751 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 75.25ms
+2022-01-15 21:44:16,514 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 21:44:16,590 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 21:44:16,590 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 76.59ms
+2022-01-15 21:44:19,358 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 21:44:19,433 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 21:44:19,433 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 75.59ms
+2022-01-15 21:44:27,341 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 21:44:27,416 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 21:44:27,416 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 74.87ms
+2022-01-15 21:44:29,444 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 21:44:29,520 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 21:44:29,520 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 75.88ms
+2022-01-15 21:44:40,233 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 21:44:40,308 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 21:44:40,309 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 75.65ms
+2022-01-15 21:44:45,833 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 21:44:45,907 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 21:44:45,908 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 75.44ms
+2022-01-15 21:44:50,159 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 21:44:50,234 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 21:44:50,235 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 76.03ms
+2022-01-15 21:45:00,253 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 21:45:00,329 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 21:45:00,330 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 77.07ms
+2022-01-15 21:45:36,365 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 21:45:36,441 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 21:45:36,441 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 75.43ms
+2022-01-15 21:45:43,166 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 21:45:43,242 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 21:45:43,242 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 76.50ms
+2022-01-15 21:45:53,259 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 21:45:53,335 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 21:45:53,336 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 76.13ms
+2022-01-15 21:46:22,621 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 21:46:22,696 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 21:46:22,696 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 75.02ms
+2022-01-15 21:46:25,157 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 21:46:25,232 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 21:46:25,233 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 76.00ms
+2022-01-15 21:46:31,602 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 21:46:31,677 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 21:46:31,678 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 75.70ms
+2022-01-15 21:46:35,250 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 21:46:35,326 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 21:46:35,326 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 75.50ms
+2022-01-15 21:46:45,344 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 21:46:45,419 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 21:46:45,420 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 77.16ms
+2022-01-15 21:47:12,412 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 21:47:12,487 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 21:47:12,488 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 75.93ms
+2022-01-15 21:47:17,157 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 21:47:17,231 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 21:47:17,232 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 75.42ms
+2022-01-15 21:47:23,531 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 21:47:23,606 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 21:47:23,607 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 75.14ms
+2022-01-15 21:47:27,247 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 21:47:27,321 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 21:47:27,322 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 75.54ms
+2022-01-15 21:47:37,336 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 21:47:37,450 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 21:47:37,450 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 114.22ms
+2022-01-15 21:47:52,805 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 21:47:52,879 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 21:47:52,880 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 75.93ms
+2022-01-15 21:48:03,089 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 21:48:03,165 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 21:48:03,166 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 77.79ms
+2022-01-15 21:48:09,150 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 21:48:09,225 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 21:48:09,225 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 75.07ms
+2022-01-15 21:48:19,241 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 21:48:19,316 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 21:48:19,317 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 75.82ms
+2022-01-15 21:48:29,340 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 21:48:29,415 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 21:48:29,415 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 75.19ms
+2022-01-15 21:48:39,432 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 21:48:39,507 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 21:48:39,508 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 75.52ms
+2022-01-15 21:48:43,337 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 21:48:43,435 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 21:48:43,435 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 98.74ms
+2022-01-15 21:48:49,532 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 21:48:49,607 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 21:48:49,608 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 76.21ms
+2022-01-15 21:48:53,402 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 21:48:53,477 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 21:48:53,477 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 74.89ms
+2022-01-15 21:48:59,624 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 21:48:59,699 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 21:48:59,700 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 77.74ms
+2022-01-15 21:49:09,716 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 21:49:09,791 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 21:49:09,791 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 75.11ms
+2022-01-15 21:49:19,809 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 21:49:19,884 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 21:49:19,884 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 74.98ms
+2022-01-15 21:49:29,903 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 21:49:29,977 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 21:49:29,977 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 75.29ms
+2022-01-15 21:59:03,624 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 21:59:03,699 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 21:59:03,700 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 76.19ms
+2022-01-15 21:59:10,444 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 21:59:10,542 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 21:59:10,542 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 97.72ms
+2022-01-15 21:59:13,719 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 21:59:13,794 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 21:59:13,794 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 75.02ms
+2022-01-15 22:28:48,164 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 22:28:48,239 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 22:28:48,240 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 76.41ms
+2022-01-15 22:28:57,521 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 22:28:57,596 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 22:28:57,597 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 76.06ms
+2022-01-15 22:29:11,279 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 22:29:11,374 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 22:29:11,374 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 94.23ms
+2022-01-15 22:29:19,150 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 22:29:19,225 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 22:29:19,226 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 75.62ms
+2022-01-15 22:29:26,270 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 22:29:26,370 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 22:29:26,371 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 101.02ms
+2022-01-15 22:29:36,266 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 22:29:36,341 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 22:29:36,341 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 75.14ms
+2022-01-15 22:29:46,357 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 22:29:46,448 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 22:29:46,449 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 91.96ms
+2022-01-15 22:29:56,468 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 22:29:56,543 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 22:29:56,543 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 75.85ms
+2022-01-15 22:30:06,572 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 22:30:06,647 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 22:30:06,648 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 75.81ms
+2022-01-15 22:30:11,398 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 22:30:11,474 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 22:30:11,474 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 76.54ms
+2022-01-15 22:30:16,656 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 22:30:16,731 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 22:30:16,732 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 76.43ms
+2022-01-15 22:30:26,742 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 22:30:26,816 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 22:30:26,817 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 76.13ms
+2022-01-15 22:30:36,834 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 22:30:36,909 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 22:30:36,910 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 75.99ms
+2022-01-15 22:30:46,927 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 22:30:47,002 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 22:30:47,003 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 76.38ms
+2022-01-15 22:30:57,015 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 22:30:57,091 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 22:30:57,091 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 76.02ms
+2022-01-15 22:31:07,113 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 22:31:07,189 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 22:31:07,189 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 76.28ms
+2022-01-15 22:31:17,207 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 22:31:17,283 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 22:31:17,284 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 76.78ms
+2022-01-15 22:31:27,301 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 22:31:27,376 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 22:31:27,377 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 76.43ms
+2022-01-15 22:31:37,388 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 22:31:37,464 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 22:31:37,465 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 77.11ms
+2022-01-15 22:31:47,484 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 22:31:47,560 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 22:31:47,560 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 75.51ms
+2022-01-15 22:31:57,581 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 22:31:57,657 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 22:31:57,658 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 76.29ms
+2022-01-15 22:32:07,669 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 22:32:07,744 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 22:32:07,745 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 75.91ms
+2022-01-15 22:32:17,759 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 22:32:17,835 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 22:32:17,836 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 76.92ms
+2022-01-15 22:32:27,844 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 22:32:27,919 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 22:32:27,919 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 76.07ms
+2022-01-15 22:32:37,930 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 22:32:38,005 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 22:32:38,006 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 76.98ms
+2022-01-15 22:32:48,017 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 22:32:48,094 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 22:32:48,094 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 76.93ms
+2022-01-15 22:32:58,105 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 22:32:58,180 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 22:32:58,181 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 75.96ms
+2022-01-15 22:33:08,199 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 22:33:08,275 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 22:33:08,276 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 77.17ms
+2022-01-15 22:33:18,291 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 22:33:18,366 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 22:33:18,367 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 76.42ms
+2022-01-15 22:33:28,387 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 22:33:28,463 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 22:33:28,463 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 76.06ms
+2022-01-15 22:33:38,481 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 22:33:38,556 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 22:33:38,556 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 75.52ms
+2022-01-15 22:33:48,567 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 22:33:48,686 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 22:33:48,687 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 120.53ms
+2022-01-15 22:33:58,696 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 22:33:58,772 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 22:33:58,772 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 76.50ms
+2022-01-15 22:34:08,781 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 22:34:08,857 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 22:34:08,858 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 77.29ms
+2022-01-15 22:34:18,867 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 22:34:18,944 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 22:34:18,944 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 76.10ms
+2022-01-15 22:34:28,956 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 22:34:29,032 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 22:34:29,033 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 77.06ms
+2022-01-15 22:34:39,045 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 22:34:39,121 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 22:34:39,121 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 76.35ms
+2022-01-15 22:34:49,137 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 22:34:49,213 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 22:34:49,214 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 76.44ms
+2022-01-15 22:34:59,222 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 22:34:59,297 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 22:34:59,297 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 75.66ms
+2022-01-15 22:35:09,305 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 22:35:09,380 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 22:35:09,381 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 75.74ms
+2022-01-15 22:35:19,401 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 22:35:19,477 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 22:35:19,478 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 76.56ms
+2022-01-15 22:35:29,492 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 22:35:29,567 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 22:35:29,568 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 76.48ms
+2022-01-15 22:35:39,587 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 22:35:39,663 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 22:35:39,663 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 76.55ms
+2022-01-15 22:35:49,679 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 22:35:49,754 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 22:35:49,754 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 76.46ms
+2022-01-15 22:35:59,767 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 22:35:59,841 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 22:35:59,842 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 76.52ms
+2022-01-15 22:36:09,851 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 22:36:09,926 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 22:36:09,927 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 76.59ms
+2022-01-15 22:36:19,939 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 22:36:20,015 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 22:36:20,015 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 76.14ms
+2022-01-15 22:36:30,027 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 22:36:30,104 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 22:36:30,104 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 77.32ms
+2022-01-15 22:36:40,121 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 22:36:40,196 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 22:36:40,196 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 75.09ms
+2022-01-15 22:36:50,209 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 22:36:50,285 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 22:36:50,285 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 75.86ms
+2022-01-15 22:37:00,299 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 22:37:00,374 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 22:37:00,375 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 75.99ms
+2022-01-15 22:37:10,385 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 22:37:10,461 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 22:37:10,461 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 75.85ms
+2022-01-15 22:37:20,477 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 22:37:20,553 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 22:37:20,554 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 76.77ms
+2022-01-15 22:37:30,574 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 22:37:30,650 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 22:37:30,650 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 75.58ms
+2022-01-15 22:37:40,661 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 22:37:40,736 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 22:37:40,737 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 77.50ms
+2022-01-15 22:37:50,754 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 22:37:50,830 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 22:37:50,831 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 76.93ms
+2022-01-15 22:38:00,852 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 22:38:00,927 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 22:38:00,928 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 77.19ms
+2022-01-15 22:38:10,948 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 22:38:11,023 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 22:38:11,024 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 76.83ms
+2022-01-15 22:38:21,030 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 22:38:21,106 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 22:38:21,107 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 76.42ms
+2022-01-15 22:38:31,120 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 22:38:31,196 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 22:38:31,196 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 75.92ms
+2022-01-15 22:38:41,211 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 22:38:41,287 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 22:38:41,287 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 76.36ms
+2022-01-15 22:38:51,307 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 22:38:51,382 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 22:38:51,383 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 76.41ms
+2022-01-15 22:39:01,399 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 22:39:01,476 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 22:39:01,476 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 77.08ms
+2022-01-15 22:39:11,490 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 22:39:11,566 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 22:39:11,567 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 76.71ms
+2022-01-15 22:39:21,589 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 22:39:21,665 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 22:39:21,665 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 76.05ms
+2022-01-15 22:39:31,677 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 22:39:31,753 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 22:39:31,754 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 76.72ms
+2022-01-15 22:39:41,767 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 22:39:41,843 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 22:39:41,843 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 77.04ms
+2022-01-15 22:39:51,851 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 22:39:51,927 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 22:39:51,928 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 76.35ms
+2022-01-15 22:40:01,944 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 22:40:02,020 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 22:40:02,021 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 77.02ms
+2022-01-15 22:40:12,034 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 22:40:12,110 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 22:40:12,111 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 76.65ms
+2022-01-15 22:40:22,128 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 22:40:22,204 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 22:40:22,204 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 75.76ms
+2022-01-15 22:40:32,217 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 22:40:32,293 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 22:40:32,293 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 75.92ms
+2022-01-15 22:40:42,313 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 22:40:42,388 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 22:40:42,389 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 77.00ms
+2022-01-15 22:40:52,403 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 22:40:52,478 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 22:40:52,479 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 76.12ms
+2022-01-15 22:41:02,503 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 22:41:02,589 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 22:41:02,589 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 86.89ms
+2022-01-15 22:41:12,613 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 22:41:12,688 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 22:41:12,689 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 76.06ms
+2022-01-15 22:41:22,708 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 22:41:22,784 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 22:41:22,784 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 76.13ms
+2022-01-15 22:41:32,798 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 22:41:32,873 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 22:41:32,874 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 75.74ms
+2022-01-15 22:41:42,885 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 22:41:42,961 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 22:41:42,962 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 77.03ms
+2022-01-15 22:41:52,970 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 22:41:53,045 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 22:41:53,045 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 75.85ms
+2022-01-15 22:42:03,057 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 22:42:03,133 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 22:42:03,134 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 77.17ms
+2022-01-15 22:42:13,141 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 22:42:13,216 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 22:42:13,216 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 75.01ms
+2022-01-15 22:42:23,232 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 22:42:23,307 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 22:42:23,308 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 76.18ms
+2022-01-15 22:42:33,322 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 22:42:33,398 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 22:42:33,398 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 76.50ms
+2022-01-15 22:42:43,409 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 22:42:43,485 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 22:42:43,485 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 76.05ms
+2022-01-15 22:42:53,501 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 22:42:53,577 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 22:42:53,578 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 76.62ms
+2022-01-15 22:43:03,593 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 22:43:03,677 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 22:43:03,678 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 85.91ms
+2022-01-15 22:43:13,695 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 22:43:13,771 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 22:43:13,772 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 76.31ms
+2022-01-15 22:43:23,787 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 22:43:23,863 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 22:43:23,864 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 76.18ms
+2022-01-15 22:43:33,878 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 22:43:33,954 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 22:43:33,954 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 76.51ms
+2022-01-15 22:43:43,964 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 22:43:44,052 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 22:43:44,053 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 89.38ms
+2022-01-15 22:43:54,067 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 22:43:54,142 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 22:43:54,143 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 76.65ms
+2022-01-15 22:44:04,161 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 22:44:04,237 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 22:44:04,237 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 75.74ms
+2022-01-15 22:44:14,253 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 22:44:14,329 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 22:44:14,330 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 76.70ms
+2022-01-15 22:44:24,347 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 22:44:24,423 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 22:44:24,423 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 76.13ms
+2022-01-15 22:44:34,445 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 22:44:34,520 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 22:44:34,521 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 76.99ms
+2022-01-15 22:44:44,535 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 22:44:44,611 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 22:44:44,612 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 76.72ms
+2022-01-15 22:44:54,634 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 22:44:54,709 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 22:44:54,710 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 75.83ms
+2022-01-15 22:45:04,722 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 22:45:04,809 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 22:45:04,809 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 87.42ms
+2022-01-15 22:45:14,830 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 22:45:14,906 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 22:45:14,907 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 76.68ms
+2022-01-15 22:45:24,918 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 22:45:24,994 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 22:45:24,995 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 76.66ms
+2022-01-15 22:45:35,007 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 22:45:35,082 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 22:45:35,083 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 76.03ms
+2022-01-15 22:45:45,103 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 22:45:45,178 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 22:45:45,179 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 76.24ms
+2022-01-15 22:45:55,197 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 22:45:55,273 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 22:45:55,273 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 75.82ms
+2022-01-15 23:07:05,932 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 23:07:06,030 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 23:07:06,030 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 98.02ms
+2022-01-15 23:07:16,042 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 23:07:16,118 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 23:07:16,119 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 76.63ms
+2022-01-15 23:07:26,143 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 23:07:26,219 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 23:07:26,219 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 75.45ms
+2022-01-15 23:07:29,257 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 23:07:29,333 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 23:07:29,334 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 76.48ms
+2022-01-15 23:07:36,239 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 23:07:36,341 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 23:07:36,341 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 101.69ms
+2022-01-15 23:33:50,322 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 23:33:50,416 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 23:33:50,417 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 95.18ms
+2022-01-15 23:34:00,425 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 23:34:00,506 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 23:34:00,507 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 81.45ms
+2022-01-15 23:34:10,515 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 23:34:10,602 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 23:34:10,602 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 86.39ms
+2022-01-15 23:34:20,279 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 23:34:20,354 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 23:34:20,354 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 76.07ms
+2022-01-15 23:34:30,632 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 23:34:30,708 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 23:34:30,709 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 76.44ms
+2022-01-15 23:34:40,719 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 23:34:40,795 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 23:34:40,796 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 77.36ms
+2022-01-15 23:34:50,806 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 23:34:50,881 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 23:34:50,881 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 75.40ms
+2022-01-15 23:35:00,892 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 23:35:00,979 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 23:35:00,980 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 89.23ms
+2022-01-15 23:35:11,002 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 23:35:11,108 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 23:35:11,109 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 106.85ms
+2022-01-15 23:35:21,116 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 23:35:21,191 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 23:35:21,192 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 76.02ms
+2022-01-15 23:35:29,506 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 23:35:29,583 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 23:35:29,584 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 78.38ms
+2022-01-15 23:35:37,348 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 23:35:37,424 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 23:35:37,424 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 75.77ms
+2022-01-15 23:36:51,410 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 23:36:51,486 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 23:36:51,487 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 76.88ms
+2022-01-15 23:39:38,276 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-15 23:39:38,352 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-15 23:39:38,353 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 76.85ms
+2022-01-16 00:00:11,039 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-16 00:00:11,125 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-16 00:00:11,126 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 88.02ms
+2022-01-16 00:00:16,449 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-16 00:00:16,545 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-16 00:00:16,546 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 97.32ms
+2022-01-16 00:00:21,135 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-16 00:00:21,232 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-16 00:00:21,232 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 98.02ms
+2022-01-16 00:00:31,239 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-16 00:00:31,317 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-16 00:00:31,317 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 77.31ms
+2022-01-16 00:11:40,204 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-16 00:11:40,279 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-16 00:11:40,280 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 76.31ms
+2022-01-16 00:11:50,297 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-16 00:11:50,373 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-16 00:11:50,374 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 77.49ms
+2022-01-16 00:12:00,392 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-16 00:12:00,468 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-16 00:12:00,468 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 77.01ms
+2022-01-16 00:12:10,477 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-16 00:12:10,553 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-16 00:12:10,554 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 76.79ms
+2022-01-16 00:12:20,567 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-16 00:12:20,643 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-16 00:12:20,643 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 76.40ms
+2022-01-16 00:12:30,663 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-16 00:12:30,740 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-16 00:12:30,741 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 77.16ms
+2022-01-16 00:12:36,919 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-16 00:12:36,999 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-16 00:12:37,000 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 80.61ms
+2022-01-16 00:12:41,141 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-16 00:12:41,217 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-16 00:12:41,217 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 76.19ms
+2022-01-16 00:12:46,919 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-16 00:12:46,995 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-16 00:12:46,995 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 76.05ms
+2022-01-16 00:12:57,014 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-16 00:12:57,091 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-16 00:12:57,092 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 77.78ms
+2022-01-16 00:13:03,591 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-16 00:13:03,673 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-16 00:13:03,675 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 83.67ms
+2022-01-16 00:13:07,104 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-16 00:13:07,180 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-16 00:13:07,180 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 75.95ms
+2022-01-16 00:13:17,194 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-16 00:13:17,270 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-16 00:13:17,270 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 76.33ms
+2022-01-16 00:13:27,287 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-16 00:13:27,362 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-16 00:13:27,363 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 76.87ms
+2022-01-16 00:13:37,384 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-16 00:13:37,460 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-16 00:13:37,460 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 76.07ms
+2022-01-16 00:13:47,475 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-16 00:13:47,551 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-16 00:13:47,552 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 76.61ms
+2022-01-16 00:13:57,564 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-16 00:13:57,640 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-16 00:13:57,640 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 76.43ms
+2022-01-16 00:14:07,655 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-16 00:14:07,732 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-16 00:14:07,732 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 76.58ms
+2022-01-16 00:14:17,754 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-16 00:14:17,831 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-16 00:14:17,832 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 77.09ms
+2022-01-16 00:14:27,840 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-16 00:14:27,916 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-16 00:14:27,916 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 76.22ms
+2022-01-16 00:14:37,926 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-16 00:14:38,002 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-16 00:14:38,002 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 76.15ms
+2022-01-16 00:14:48,024 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-16 00:14:48,100 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-16 00:14:48,101 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 77.27ms
+2022-01-16 00:14:58,113 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-16 00:14:58,190 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-16 00:14:58,190 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 77.56ms
+2022-01-16 00:15:08,200 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-16 00:15:08,277 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-16 00:15:08,277 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 76.86ms
+2022-01-16 00:15:18,285 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-16 00:15:18,361 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-16 00:15:18,362 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 76.89ms
+2022-01-16 00:15:22,341 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-16 00:15:22,418 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-16 00:15:22,418 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 77.30ms
+2022-01-16 00:15:28,384 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-16 00:15:28,460 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-16 00:15:28,461 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 77.13ms
+2022-01-16 00:15:38,474 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-16 00:15:38,551 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-16 00:15:38,551 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 77.01ms
+2022-01-16 00:15:48,559 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-16 00:15:48,636 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-16 00:15:48,637 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 77.62ms
+2022-01-16 00:15:58,646 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-16 00:15:58,721 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-16 00:15:58,722 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 76.49ms
+2022-01-16 00:16:08,737 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-16 00:16:08,813 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-16 00:16:08,813 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 76.89ms
+2022-01-16 00:16:18,826 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-16 00:16:18,902 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-16 00:16:18,902 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 76.38ms
+2022-01-16 00:16:28,923 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-16 00:16:29,000 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-16 00:16:29,001 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 76.19ms
+2022-01-16 00:16:39,013 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-16 00:16:39,089 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-16 00:16:39,090 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 76.88ms
+2022-01-16 00:16:49,103 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-16 00:16:49,180 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-16 00:16:49,180 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 76.31ms
+2022-01-16 00:16:59,202 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-16 00:16:59,277 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-16 00:16:59,278 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 75.94ms
+2022-01-16 00:17:09,285 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-16 00:17:09,361 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-16 00:17:09,362 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 77.22ms
+2022-01-16 00:17:19,377 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-16 00:17:19,453 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-16 00:17:19,454 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 78.46ms
+2022-01-16 00:17:29,471 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-16 00:17:29,547 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-16 00:17:29,548 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 77.30ms
+2022-01-16 00:17:39,561 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-16 00:17:39,638 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-16 00:17:39,638 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 76.29ms
+2022-01-16 00:17:49,658 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-16 00:17:49,734 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-16 00:17:49,734 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 75.92ms
+2022-01-16 00:17:59,743 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-16 00:17:59,820 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-16 00:17:59,820 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 76.54ms
+2022-01-16 00:18:09,828 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-16 00:18:09,903 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-16 00:18:09,903 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 75.52ms
+2022-01-16 00:18:19,919 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-16 00:18:19,995 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-16 00:18:19,996 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 77.44ms
+2022-01-16 00:18:30,014 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-16 00:18:30,090 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-16 00:18:30,091 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 77.37ms
+2022-01-16 00:18:40,105 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-16 00:18:40,181 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-16 00:18:40,181 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 76.80ms
+2022-01-16 00:18:50,201 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-16 00:18:50,277 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-16 00:18:50,278 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 77.33ms
+2022-01-16 00:19:00,294 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-16 00:19:00,370 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-16 00:19:00,371 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 77.10ms
+2022-01-16 00:19:10,392 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-16 00:19:10,468 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-16 00:19:10,469 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 76.57ms
+2022-01-16 00:19:20,489 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-16 00:19:20,564 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-16 00:19:20,565 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 76.86ms
+2022-01-16 00:19:30,575 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-16 00:19:30,651 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-16 00:19:30,652 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 77.48ms
+2022-01-16 00:19:40,673 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-16 00:19:40,780 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-16 00:19:40,780 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 106.95ms
+2022-01-16 00:19:50,799 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-16 00:19:50,875 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-16 00:19:50,875 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 77.28ms
+2022-01-16 00:20:00,887 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-16 00:20:00,963 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-16 00:20:00,964 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 77.00ms
+2022-01-16 00:20:09,505 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-16 00:20:09,581 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-16 00:20:09,581 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 77.21ms
+2022-01-16 00:32:34,430 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-16 00:32:34,506 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-16 00:32:34,507 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 77.14ms
+2022-01-16 00:39:32,606 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-16 00:39:32,682 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-16 00:39:32,682 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 76.64ms
+2022-01-16 00:39:41,804 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-16 00:39:41,881 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-16 00:39:41,881 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 76.80ms
+2022-01-16 00:39:52,627 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-16 00:39:52,702 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-16 00:39:52,702 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 75.54ms
+2022-01-16 00:39:57,900 	 [WARNING | web.py:2239] > 405 OPTIONS /api/inventory/create (::1) 1.00ms
+2022-01-16 00:40:02,720 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-16 00:40:02,796 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-16 00:40:02,797 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 77.24ms
+2022-01-16 00:40:12,817 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-16 00:40:12,893 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-16 00:40:12,893 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 76.28ms
+2022-01-16 00:40:22,922 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-16 00:40:22,998 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-16 00:40:22,999 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 76.98ms
+2022-01-16 00:40:33,023 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-16 00:40:33,099 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-16 00:40:33,100 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 76.95ms
+2022-01-16 00:40:35,372 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-16 00:40:35,451 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-16 00:40:35,453 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 81.46ms
+2022-01-16 00:40:43,120 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-16 00:40:43,196 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-16 00:40:43,197 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 77.10ms
+2022-01-16 00:41:05,001 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-16 00:41:05,077 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-16 00:41:05,078 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 78.22ms
+2022-01-16 00:41:20,313 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-16 00:41:20,390 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-16 00:41:20,391 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 77.03ms
+2022-01-16 00:41:25,156 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-16 00:41:25,237 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-16 00:41:25,238 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 81.89ms
+2022-01-16 00:41:35,252 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-16 00:41:35,329 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-16 00:41:35,330 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 77.72ms
+2022-01-16 00:41:46,322 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-16 00:41:46,397 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-16 00:41:46,398 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 77.20ms
+2022-01-16 00:41:56,162 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-16 00:41:56,238 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-16 00:41:56,238 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 76.43ms
+2022-01-16 00:42:06,262 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-16 00:42:06,339 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-16 00:42:06,340 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 77.36ms
+2022-01-16 00:42:16,358 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-16 00:42:16,433 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-16 00:42:16,434 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 77.13ms
+2022-01-16 00:42:26,461 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-16 00:42:26,538 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-16 00:42:26,538 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 77.01ms
+2022-01-16 00:42:32,935 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-16 00:42:33,012 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-16 00:42:33,012 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 76.59ms
+2022-01-16 00:42:36,561 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-16 00:42:36,656 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-16 00:42:36,656 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 95.28ms
+2022-01-16 00:42:46,675 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-16 00:42:46,750 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-16 00:42:46,751 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 76.45ms
+2022-01-16 00:42:56,768 	 [INFO | inventoryControlHandler.py:12] > [GET] Request - /api/inventory/list
+2022-01-16 00:42:56,843 	 [INFO | inventoryControlHandler.py:20] > [GET] Response - /api/inventory/list
+2022-01-16 00:42:56,844 	 [INFO | web.py:2239] > 304 GET /api/inventory/list (::1) 76.50ms
