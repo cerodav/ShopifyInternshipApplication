@@ -15,3 +15,9 @@
 The server has been hosted on AWS.
 Backend : http://35.164.86.119:9086/api/inventory/list
 Frontend : http://35.164.86.119:9087/
+
+## Features
+
+1. I've chosen to implement the export functionality. On clicking the 'Export' button on the top right corner of the screen, the .csv file will be exported.
+2. The dialogue for creating an inventory item can be found on the main page itself. On adding an item, it will be instantly seen updated on the table listed below.
+edit is marked in green. Every action will be instantenously reflected on the table listed.
